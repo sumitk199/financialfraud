@@ -1,0 +1,50 @@
+:root {
+  --white: #fff;
+  --primary-clr: #640c0d;
+  --secondry-bg: #bb2025;
+}
+
+body {
+  background: #111111;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  color: var(--white);
+  overflow-x: hidden;
+}
+
+::selection {
+  color: var(--white);
+  background: var(--secondry-bg);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.heading h2 {
+  font-size: 36px;
+  text-align: center;
+}
+.heading p {
+  font-size: 16px;
+  color: #999999;
+  text-align: center;
+  margin: 0 27%;
+  margin-top: 20px;
+}
